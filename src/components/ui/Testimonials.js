@@ -213,7 +213,7 @@ export default function Testimonials() {
 
                   {/* Quote */}
                   <blockquote className="text-lg leading-relaxed italic">
-                    "{official.quote}"
+                    &ldquo;{official.quote}&rdquo;
                   </blockquote>
                 </div>
               </motion.div>
@@ -278,7 +278,7 @@ export default function Testimonials() {
                 <div>
                   <QuoteLeftIcon className="h-6 w-6 text-indigo-400 mb-2" />
                   <blockquote className="text-slate-700 italic leading-relaxed">
-                    "{farmer.quote}"
+                    &ldquo;{farmer.quote}&rdquo;
                   </blockquote>
                 </div>
               </motion.div>
@@ -340,9 +340,11 @@ export default function Testimonials() {
             <div className="mt-12 pt-8 border-t border-slate-200 text-center">
               <TrophyIcon className="h-10 w-10 text-yellow-500 mx-auto mb-4" />
               <blockquote className="text-xl font-semibold text-slate-800 mb-4 italic">
-                "Petani yang dapat memfungsikan lahan disekitar hutan sebagai
-                pertanian Jagung dan Padi dengan program GeMAR Anti Rugi"
+                &ldquo;Petani yang dapat memfungsikan lahan disekitar hutan
+                sebagai pertanian Jagung dan Padi dengan program GeMAR Anti
+                Rugi&rdquo;
               </blockquote>
+
               <div className="flex items-center justify-center space-x-6 text-sm text-slate-600">
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-emerald-500 rounded-full"></div>

@@ -404,9 +404,9 @@ export default function Timeline() {
                   Visi 5 Tahun GeMAR
                 </h3>
                 <blockquote className="text-xl lg:text-2xl font-semibold text-slate-200 mb-6 leading-relaxed italic max-w-4xl mx-auto">
-                  "Dalam 5 Tahun Program GeMAR dapat diterapkan secara Nasional
-                  melalui Kemendes sehingga mampu mewujudkan swasembada pangan
-                  dan mewujudkan Asta Cita Presiden yang ke-6"
+                  &ldquo;Dalam 5 Tahun Program GeMAR dapat diterapkan secara
+                  Nasional melalui Kemendes sehingga mampu mewujudkan swasembada
+                  pangan dan mewujudkan Asta Cita Presiden yang ke-6&rdquo;
                 </blockquote>
               </div>
 

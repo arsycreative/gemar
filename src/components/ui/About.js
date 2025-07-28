@@ -269,9 +269,9 @@ export default function About() {
                 </p>
 
                 <blockquote className="text-slate-600 italic leading-relaxed max-w-xl mx-auto">
-                  "Kami berharap terdapat generasi petani muda yang sukses dan
-                  memiliki mindset bisnis yang baik, bukan hanya sebagai
-                  penggarap lahan biasa."
+                  &ldquo;Kami berharap terdapat generasi petani muda yang sukses
+                  dan memiliki mindset bisnis yang baik, bukan hanya sebagai
+                  penggarap lahan biasa.&rdquo;
                 </blockquote>
               </div>
             </div>

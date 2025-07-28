@@ -127,9 +127,10 @@ export default function Hero() {
                 <div className="absolute left-0 top-0 w-1 h-full bg-gradient-to-b from-yellow-400 to-orange-400 rounded-full"></div>
                 <div className="pl-6">
                   <blockquote className="text-xl font-semibold text-white mb-2 italic">
-                    "Tidak Ada Negara yang maju tanpa berdaulat di bidang
-                    pangan"
+                    &ldquo;Tidak Ada Negara yang maju tanpa berdaulat di bidang
+                    pangan&rdquo;
                   </blockquote>
+
                   <cite className="text-slate-400 text-sm">
                     - Zulkifli Hasan, Menko Pangan
                   </cite>

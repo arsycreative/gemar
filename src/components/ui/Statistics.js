@@ -117,12 +117,11 @@ export default function Statistics() {
           ))}
         </div>
 
-        {/* Progress Quote */}
         <AnimatedSection delay={0.6}>
           <div className="bg-gradient-to-br from-blue-900 via-blue-800 to-blue-900 rounded-2xl p-8 text-white text-center">
             <blockquote className="text-2xl md:text-3xl font-bold mb-4 leading-relaxed">
-              "Keberhasilan GeMAR menginspirasi 85 BUMDes di Kabupaten Blora
-              untuk berkomitmen turut serta dalam program"
+              &ldquo;Keberhasilan GeMAR menginspirasi 85 BUMDes di Kabupaten
+              Blora untuk berkomitmen turut serta dalam program&rdquo;
             </blockquote>
             <p className="text-blue-200">
               Program kolaborasi PT ANTaM dengan Asosiasi BUMDesma LKD Kabupaten
