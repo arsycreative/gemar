@@ -1,5 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,8 +11,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="id" suppressHydrationWarning>
-      <body className={inter.className}>{children}</body>
+    <html lang="id">
+      <body className={inter.className} suppressHydrationWarning>
+        {children}
+        <FloatingWhatsApp />
+      </body>
     </html>
   );
 }

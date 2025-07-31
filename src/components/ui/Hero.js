@@ -130,7 +130,6 @@ export default function Hero() {
                     &ldquo;Tidak Ada Negara yang maju tanpa berdaulat di bidang
                     pangan&rdquo;
                   </blockquote>
-
                   <cite className="text-slate-400 text-sm">
                     - Zulkifli Hasan, Menko Pangan
                   </cite>

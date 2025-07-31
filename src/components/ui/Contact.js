@@ -15,6 +15,7 @@ import {
   ChatBubbleLeftRightIcon,
 } from "@heroicons/react/24/outline";
 import { UsersIcon } from "lucide-react";
+import { whatsappURL } from "./FloatingWhatsApp";
 
 export default function Contact() {
   const contactMethods = [
@@ -31,7 +32,7 @@ export default function Contact() {
       icon: <PhoneIcon className="h-8 w-8" />,
       title: "Hubungi Langsung",
       subtitle: "Customer Service 24/7",
-      details: "+62 21 1234 5678",
+      details: "+62 8212 2662 776",
       action: "Telpon Sekarang",
       gradient: "from-emerald-500 to-teal-500",
       bgColor: "bg-emerald-50",
@@ -329,14 +330,17 @@ export default function Contact() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <motion.button
+                <motion.a
+                  href={whatsappURL}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="border-2 border-white/30 text-white px-8 py-4 rounded-2xl font-semibold text-lg hover:bg-white/10 transition-all flex items-center justify-center space-x-2"
                 >
                   <PhoneIcon className="h-5 w-5" />
                   <span>Konsultasi Gratis Sekarang</span>
-                </motion.button>
+                </motion.a>
               </div>
 
               {/* Trust Indicators */}
