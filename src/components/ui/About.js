@@ -11,6 +11,7 @@ import {
   CheckBadgeIcon,
 } from "@heroicons/react/24/outline";
 import { encodedBatik } from "@/libs/utils";
+import Image from "next/image";
 
 export default function About() {
   const features = [
@@ -108,11 +109,14 @@ export default function About() {
             <AnimatedSection delay={0.2}>
               <div className="relative">
                 {/* Main Image */}
-                <div className="relative rounded-3xl overflow-hidden modern-shadow">
-                  <img
+                <div className="relative h-96 rounded-3xl overflow-hidden modern-shadow">
+                  <Image
                     src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
                     alt="Petani Modern ANTaM"
-                    className="w-full h-96 object-cover"
+                    fill
+                    className="object-cover"
+                    sizes="100vw"
+                    priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-tr from-indigo-900/20 to-transparent"></div>
                 </div>
