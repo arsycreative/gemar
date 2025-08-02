@@ -31,7 +31,7 @@ export default function Statistics() {
     },
     {
       icon: <BuildingOfficeIcon className="h-8 w-8" />,
-      number: "85",
+      number: "98",
       label: "BUMDes Tertarik",
       subtitle: "BUMDes Kabupaten Blora",
     },

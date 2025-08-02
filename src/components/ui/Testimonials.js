@@ -10,6 +10,7 @@ import {
   HeartIcon,
 } from "@heroicons/react/24/outline";
 import { StarIcon as StarIconSolid } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 export default function Testimonials() {
   const farmers = [
@@ -127,7 +128,7 @@ export default function Testimonials() {
       color: "text-blue-600",
     },
     {
-      number: "85",
+      number: "98",
       suffix: "",
       label: "BUMDes Tertarik",
       description: "BUMDes yang ingin bergabung program",
@@ -193,11 +194,16 @@ export default function Testimonials() {
 
                   {/* Official Info */}
                   <div className="flex items-center space-x-4 mb-6">
-                    <img
-                      src={official.image}
-                      alt={official.name}
-                      className="w-16 h-16 rounded-2xl object-cover border-4 border-white/20"
-                    />
+                    <div className="inline-block">
+                      <Image
+                        src={official.image}
+                        alt={official.name}
+                        width={64}
+                        height={64}
+                        className="rounded-2xl object-cover border-4 border-white/20"
+                        priority
+                      />
+                    </div>
                     <div>
                       <h3 className="text-xl font-bold text-white">
                         {official.name}
@@ -241,10 +247,13 @@ export default function Testimonials() {
                 {/* Header */}
                 <div className="flex items-start space-x-4 mb-6">
                   {farmer.image ? (
-                    <img
+                    <Image
                       src={farmer.image}
                       alt={farmer.name}
-                      className="w-16 h-16 rounded-full object-cover bg-slate-300"
+                      width={64}
+                      height={64}
+                      className="rounded-full object-cover bg-slate-300"
+                      priority
                     />
                   ) : (
                     <div className="w-16 h-16 rounded-full bg-slate-300" />
@@ -356,7 +365,7 @@ export default function Testimonials() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <div className="w-3 h-3 bg-purple-500 rounded-full"></div>
-                  <span>85 BUMDes Tertarik</span>
+                  <span>98 BUMDes Tertarik</span>
                 </div>
               </div>
             </div>

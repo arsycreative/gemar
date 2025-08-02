@@ -157,11 +157,16 @@ export default function Programs() {
                     }`}
                   >
                     <div className="relative rounded-3xl overflow-hidden modern-shadow group-hover:shadow-2xl transition-all duration-500">
-                      <img
-                        src={program.image}
-                        alt={program.title}
-                        className="w-full h-80 object-cover group-hover:scale-110 transition-transform duration-700"
-                      />
+                      <div className="relative w-full h-80">
+                        <Image
+                          src={program.image}
+                          alt={program.title}
+                          fill
+                          className="object-cover group-hover:scale-110 transition-transform duration-700"
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                          priority
+                        />
+                      </div>
                       <div className="absolute inset-0 bg-gradient-to-tr from-black/50 via-transparent to-transparent" />
                       <div className="absolute top-6 left-6">
                         <span

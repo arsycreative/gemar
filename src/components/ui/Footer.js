@@ -48,8 +48,11 @@ export default function Footer() {
             </p>
             <div className="space-y-3 text-sm">
               <div className="flex items-center">
-                <MapPinIcon className="h-4 w-4 mr-2 text-blue-400" />
-                <span className="text-gray-400">Jakarta, Indonesia</span>
+                <MapPinIcon className="h-9 w-9 mr-2 text-blue-400" />
+                <span className="text-gray-400">
+                  Jl. Taman Bahagia Jl. Nglajo No.11, Wonotejo, Cepu, Kec. Cepu,
+                  Kabupaten Blora, Jawa Tengah 58312
+                </span>
               </div>
               <div className="flex items-center">
                 <PhoneIcon className="h-4 w-4 mr-2 text-blue-400" />
@@ -57,7 +60,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <EnvelopeIcon className="h-4 w-4 mr-2 text-blue-400" />
-                <span className="text-gray-400">info@antam.co.id</span>
+                <span className="text-gray-400">Antam.pertanian@gmail.com</span>
               </div>
             </div>
           </motion.div>

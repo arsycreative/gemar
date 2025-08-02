@@ -1,5 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   XMarkIcon,
@@ -43,12 +44,12 @@ export default function Gallery() {
     setSelectedImage(galleryImages[newIndex]);
   };
 
-  const goToNext = () => {
+  const goToNext = useCallback(() => {
     const newIndex =
       currentIndex < galleryImages.length - 1 ? currentIndex + 1 : 0;
     setCurrentIndex(newIndex);
     setSelectedImage(galleryImages[newIndex]);
-  };
+  });
 
   // Handle keyboard navigation
   useEffect(() => {
@@ -62,7 +63,7 @@ export default function Gallery() {
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [selectedImage, currentIndex]);
+  }, [selectedImage, currentIndex, goToPrevious, goToNext]);
 
   return (
     <main className="min-h-screen bg-slate-50 flex flex-col">

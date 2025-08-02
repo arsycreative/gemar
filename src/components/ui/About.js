@@ -47,7 +47,7 @@ export default function About() {
   const achievements = [
     { number: "154", label: "Hektar Lahan Aktif", suffix: "+" },
     { number: "100", label: "Petani Bergabung", suffix: "+" },
-    { number: "85", label: "BUMDes Tertarik", suffix: "" },
+    { number: "98", label: "BUMDes Tertarik", suffix: "" },
     { number: "99.8", label: "Success Rate", suffix: "%" },
   ];
 
@@ -257,11 +257,26 @@ export default function About() {
           <AnimatedSection delay={0.2}>
             <div className="floating-card h-full p-6">
               <div className="text-center mb-8">
-                <div className="relative inline-block mb-6">
-                  <img
+                <div
+                  className="
+                    relative 
+                    inline-block 
+                    mb-6 
+                    w-28 
+                    h-28 
+                    rounded-full 
+                    border-4 
+                    border-indigo-500 
+                    shadow-lg 
+                    overflow-hidden
+                  "
+                >
+                  <Image
                     src="/direktur-antam.webp"
                     alt="Andi Restu Wibowo"
-                    className="w-28 h-28 object-cover rounded-full border-4 border-indigo-500 shadow-lg"
+                    fill
+                    className="object-cover"
+                    priority
                   />
                 </div>
 

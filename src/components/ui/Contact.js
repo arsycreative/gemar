@@ -13,6 +13,7 @@ import {
   CheckCircleIcon,
   SparklesIcon,
   ChatBubbleLeftRightIcon,
+  DocumentCheckIcon,
 } from "@heroicons/react/24/outline";
 import { UsersIcon } from "lucide-react";
 import { whatsappURL } from "./FloatingWhatsApp";
@@ -23,7 +24,8 @@ export default function Contact() {
       icon: <BuildingOffice2Icon className="h-8 w-8 text-blue-700" />,
       title: "Kantor Pusat",
       subtitle: "PT Agro Nusantara Tani Milenial",
-      details: "Jakarta, Indonesia",
+      details:
+        "Jl. Taman Bahagia Jl. Nglajo No.11, Wonotejo, Cepu, Kec. Cepu, Kabupaten Blora, Jawa Tengah 58312",
       action: "Kunjungi Lokasi",
       gradient: "from-blue-500 to-indigo-500",
       bgColor: "bg-blue-50",
@@ -73,15 +75,16 @@ export default function Contact() {
     },
     {
       step: "03",
-      title: "Pendampingan & Sertifikasi",
-      description: "Pelatihan Anti Rugi dan sertifikasi untuk pengurus BUMDes",
-      icon: <UserGroupIcon className="h-6 w-6" />,
+      title: "Sertifikasi Konsep Bisnis",
+      description:
+        "Sertifikasi konsep/skema bisnis pertanian berasuransi untuk BUMDes",
+      icon: <DocumentCheckIcon className="h-6 w-6" />,
     },
     {
       step: "04",
-      title: "Implementasi Program",
-      description: "Pelaksanaan GeMAR secara mandiri bersama masyarakat desa",
-      icon: <SparklesIcon className="h-6 w-6" />,
+      title: "Pendampingan Teknis",
+      description: "Pendampingan teknis skema bisnis untuk BUMDes",
+      icon: <UserGroupIcon className="h-6 w-6" />,
     },
   ];
 

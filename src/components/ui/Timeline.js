@@ -194,7 +194,7 @@ export default function Timeline() {
         {/* Main Timeline */}
         <div className="relative mb-20">
           {/* Timeline Line */}
-          <div className="absolute left-8 lg:left-1/2 transform lg:-translate-x-0.5 top-0 bottom-0 w-1 bg-gradient-to-b from-emerald-400 via-blue-400 via-purple-400 to-orange-400 rounded-full"></div>
+          <div className="absolute left-8 lg:left-1/2 transform lg:-translate-x-0.5 top-0 bottom-0 w-1 bg-gradient-to-b from-emerald-400 via-blue-400 to-orange-400 rounded-full"></div>
 
           {/* Timeline Items */}
           <div className="space-y-16">

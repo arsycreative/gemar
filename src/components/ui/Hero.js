@@ -24,7 +24,7 @@ export default function Hero() {
   const stats = [
     { number: "154", label: "Hektar Lahan", suffix: "+" },
     { number: "100", label: "Petani Terlibat", suffix: "+" },
-    { number: "85", label: "BUMDes Tertarik", suffix: "" },
+    { number: "98", label: "BUMDes Tertarik", suffix: "" },
     { number: "0", label: "Tingkat Kerugian", suffix: "%" },
   ];
 
