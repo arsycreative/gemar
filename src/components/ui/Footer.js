@@ -56,7 +56,8 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                 <PhoneIcon className="h-4 w-4 mr-2 text-blue-400" />
-                <span className="text-gray-400">+62 21 1234 5678</span>
+                {/* <span className="text-gray-400">+62 21 1234 5678</span> */}
+                <span className="text-gray-400">+62 8212 2662 776</span>
               </div>
               <div className="flex items-center">
                 <EnvelopeIcon className="h-4 w-4 mr-2 text-blue-400" />
