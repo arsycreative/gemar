@@ -5,7 +5,7 @@ import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "GeMAR - Gerakan Menanam Anti Rugi",
+  title: "PT Agro Nusantara Tani Milenial - GeMAR",
   description: "Program Ketahanan Pangan New Generation untuk Petani Milenial",
 };
 
