@@ -43,7 +43,7 @@ export default function Contact() {
       icon: <EnvelopeIcon className="h-8 w-8" />,
       title: "Email Resmi",
       subtitle: "Informasi & Partnership",
-      details: "info@antam.co.id",
+      details: "antam.pertanian@gmail.com",
       action: "Kirim Email",
       gradient: "from-purple-500 to-pink-500",
       bgColor: "bg-purple-50",
